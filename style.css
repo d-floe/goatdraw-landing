@@ -21,12 +21,11 @@ body {
 }
 
 .logo {
-        margin: auto;
-        display:block;
-        width:95%;
-        max-width: 50rem;
-        border-radius: .5rem;
-
+    margin: auto;
+    display:block;
+    width:95%;
+    max-width: 50rem;
+    border-radius: .5rem;
 }
 
 header {
@@ -53,17 +52,18 @@ nav a {
     text-decoration: none;
     font-size: 20pt;
     fill:white;
+    display:block;
+    width: 12rem;
+    padding: 1rem 0;
 }
 
 nav li {
-    display:block;
     margin: 0.25rem;
     border: white solid 1px;
-    width: 12rem;
-    padding: 1rem 0;
     transition: .1s ease-in;
     border-radius: .2rem;
-
+    list-style: none;
+    padding:0;
 }
 
 
